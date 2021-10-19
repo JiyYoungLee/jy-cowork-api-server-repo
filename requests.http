@@ -1,0 +1,10 @@
+GET http://localhost:3000/api/members
+
+###
+GET http://localhost:3000/api/members?team=engineering
+
+###
+GET http://localhost:3000/api/members?team=sales
+
+###
+GET http://localhost:3000/api/members?team=marketing

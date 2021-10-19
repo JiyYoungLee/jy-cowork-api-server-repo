@@ -1,0 +1,24 @@
+{
+  "name": "cowork-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "migrate": "sequelize db:migrate",
+    "seed": "sequelize db:seed:all"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "experss": "0.0.1-security",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.7.0",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
