@@ -10,11 +10,11 @@ const { Member } = db;
 //middleware
 app.use(express.json());
 // 여기에 두 번째 미들웨어를 설정.
-app.use((req, res, next) => {
+/*app.use((req, res, next) => {
     console.log(req.query);
     next();
   });
-  /**/
+  */
 
   app.get('/', (req,res) => {
     res.send('URL should contain /api/..');
