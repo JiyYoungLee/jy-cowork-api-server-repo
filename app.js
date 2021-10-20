@@ -16,6 +16,10 @@ app.use((req, res, next) => {
   });
   /**/
 
+  app.get('/', (req,res) => {
+    res.send('URL should contain /api/..');
+  });
+
 app.get('/api/members', async(req, res) => {
     const { team } =req.query;
     if (team) {
